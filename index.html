@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <title>C147 Project</title>
+</head>
+<body>
+    <a-scene background="color: white">
+        <a-entity position="0 0 10">
+            <a-camera></a-camera>
+        </a-entity>
+        <!--Wall-->
+        <a-entity position="0 0 0" rotation="0 0 0">
+            <a-plane position="0 0 -10" rotation="0 0 0" width="20" height="10" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxhUi-1iqzMdxV901732cgNY5G6Bznix7IAw&usqp=CAU"></a-plane>
+        </a-entity>
+
+        <a-entity position="0 0 0" rotation="0 0 0">
+            <a-plane position="-5 0 -9.9" rotation="0 0 0" width="4" height="6" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_Lxwr7-JlN7w61TCKMWHBOfTKs_CKBKDcQZ-3CoXb5TASo2TO-ARWnLAtm-ytvQqxho4&usqp=CAU"></a-plane>
+        </a-entity>
+
+        <a-entity position="0 0 0" rotation="0 0 0">
+            <a-plane position="5 0 -9.9" rotation="0 0 0" width="4" height="6" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_Lxwr7-JlN7w61TCKMWHBOfTKs_CKBKDcQZ-3CoXb5TASo2TO-ARWnLAtm-ytvQqxho4&usqp=CAU"></a-plane>
+        </a-entity>
+
+        <a-entity position="0 0 0" rotation="0 0 0">
+            <a-plane position="0 0 -9.9" rotation="0 0 0" width="4" height="6" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Aspen-PopulusTremuloides-2001-09-27.jpg/220px-Aspen-PopulusTremuloides-2001-09-27.jpg"></a-plane>
+        </a-entity>
+
+        <a-entity position="0 0 0" rotation="0 0 0">
+            <a-plane position="0 -4.5 -5" rotation="-95 0 0" width="20" height="10" color="#dea350"></a-plane>
+        </a-entity>
+
+        <a-entity position="0 0 0" rotation="0 0 0">
+            <a-plane position="0 -4.4 -5" rotation="-95 0 0" width="9" height="5" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2Yc0dOFDQg9Q-2OLVE_UgmQYlUs_mLN_ZXg&usqp=CAU"></a-plane>
+        </a-entity>
+
+        <a-entity position="0 0 0" rotation="0 0 0">
+            <a-cylinder position="0 -3.4 -5" radius="0.8" height="1.5" color="#f2d3a7"></a-cylinder>
+        </a-entity>
+
+        <a-entity position="0 0 0" rotation="0 0 0">
+            <a-cylinder position="0 -2.5 -5" radius="2" height="0.1" color="#f2d3a7"></a-cylinder>
+        </a-entity>
+
+        <a-cylinder color="yellow" radius="1.2" position="5.0 -3 -2">
+            <a-cylinder color="yellow" radius="0.2" position="0 1 0" height="1.2">
+            </a-cylinder>
+            <a-cylinder color="yellow" position="0 1.9 0" rotation="0 0 0" radius="1.3" height="0.2">
+            </a-cylinder>
+            <a-cylinder color="yellow" position="0.85 3 0" rotation="90 -90 0" radius="1.3" height="0.2">
+            </a-cylinder>
+        </a-cylinder>
+
+        <a-cylinder color="red" radius="1.2" position="-5.0 -3 -2">
+            <a-cylinder color="red" radius="0.2" position="0 1 0" height="1.2">
+            </a-cylinder>
+            <a-cylinder color="red" position="0 1.9 0" rotation="0 0 0" radius="1.3" height="0.2">
+            </a-cylinder>
+            <a-cylinder color="red" position="-0.85 3 0" rotation="90 -90 0" radius="1.3" height="0.2">
+            </a-cylinder>
+        </a-cylinder>
+    </a-scene>
+</body>
+</html>
